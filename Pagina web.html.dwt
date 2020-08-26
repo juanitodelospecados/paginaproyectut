@@ -1,0 +1,390 @@
+<%@LANGUAGE="JAVASCRIPT" CODEPAGE="65001"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title></title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+body,td,th {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000;
+}
+#apDiv1 {
+	position: absolute;
+	width: 736px;
+	height: 259px;
+	z-index: 1;
+	left: 49px;
+	top: 811px;
+}
+#apDiv2 {
+	position: absolute;
+	width: 769px;
+	height: 86px;
+	z-index: 2;
+	left: 47px;
+	top: 1104px;
+}
+#apDiv3 {
+	position: absolute;
+	width: 614px;
+	height: 330px;
+	z-index: 3;
+	left: 46px;
+	top: 1293px;
+}
+#apDiv4 {
+	position: absolute;
+	width: 617px;
+	height: 115px;
+	z-index: 4;
+	left: 43px;
+	top: 1668px;
+}
+#apDiv5 {
+	position: absolute;
+	width: 620px;
+	height: 29px;
+	z-index: 5;
+	left: 45px;
+	top: 1807px;
+}
+#apDiv6 {
+	position: absolute;
+	width: 777px;
+	height: 32px;
+	z-index: 6;
+	left: -1px;
+	top: -577px;
+}
+#apDiv7 {
+	position: absolute;
+	width: 737px;
+	height: 33px;
+	z-index: 6;
+	left: 44px;
+	top: 710px;
+}
+#apDiv8 {
+	position: absolute;
+	width: 621px;
+	height: 224px;
+	z-index: 7;
+	left: 46px;
+	top: 1877px;
+}
+#apDiv9 {
+	position: absolute;
+	width: 623px;
+	height: 34px;
+	z-index: 8;
+	left: 48px;
+	top: 2134px;
+}
+#apDiv10 {
+	position: absolute;
+	width: 627px;
+	height: 219px;
+	z-index: 9;
+	left: 48px;
+	top: 2197px;
+}
+#apDiv11 {
+	position: absolute;
+	width: 630px;
+	height: 83px;
+	z-index: 10;
+	left: 49px;
+	top: 2506px;
+}
+#apDiv12 {
+	position: absolute;
+	width: 642px;
+	height: 42px;
+	z-index: 11;
+	left: 51px;
+	top: 2634px;
+}
+#apDiv13 {
+	position: absolute;
+	width: 645px;
+	height: 287px;
+	z-index: 12;
+	left: 49px;
+	top: 2699px;
+}
+#apDiv14 {
+	position: absolute;
+	width: 644px;
+	height: 92px;
+	z-index: 13;
+	left: 50px;
+	top: 3052px;
+}
+#apDiv15 {
+	position: absolute;
+	width: 645px;
+	height: 51px;
+	z-index: 14;
+	left: 51px;
+	top: 3165px;
+}
+#apDiv16 {
+	position: absolute;
+	width: 656px;
+	height: 350px;
+	z-index: 15;
+	left: 44px;
+	top: 3235px;
+}
+#apDiv17 {
+	position: absolute;
+	width: 660px;
+	height: 49px;
+	z-index: 16;
+	left: 46px;
+	top: 3678px;
+}
+#apDiv18 {
+	position: absolute;
+	width: 655px;
+	height: 389px;
+	z-index: 17;
+	left: 48px;
+	top: 3755px;
+}
+#apDiv19 {
+	position: absolute;
+	width: 668px;
+	height: 115px;
+	z-index: 18;
+	left: 47px;
+	top: 4173px;
+}
+#apDiv20 {
+	position: absolute;
+	width: 669px;
+	height: 42px;
+	z-index: 19;
+	left: 46px;
+	top: 4315px;
+}
+#apDiv21 {
+	position: absolute;
+	width: 671px;
+	height: 269px;
+	z-index: 20;
+	left: 45px;
+	top: 4388px;
+}
+#apDiv22 {
+	position: absolute;
+	width: 676px;
+	height: 133px;
+	z-index: 21;
+	left: 45px;
+	top: 4841px;
+}
+#apDiv23 {
+	position: absolute;
+	width: 680px;
+	height: 57px;
+	z-index: 22;
+	left: 46px;
+	top: 5006px;
+}
+#apDiv24 {
+	position: absolute;
+	width: 677px;
+	height: 335px;
+	z-index: 23;
+	left: 47px;
+	top: 5093px;
+}
+#apDiv25 {
+	position: absolute;
+	width: 686px;
+	height: 43px;
+	z-index: 24;
+	left: 47px;
+	top: 5475px;
+}
+#apDiv26 {
+	position: absolute;
+	width: 686px;
+	height: 396px;
+	z-index: 25;
+	left: 45px;
+	top: 5555px;
+}
+</style>
+</head>
+
+<body>
+<table width="100%" border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../Imagenes/LOGO.jpg" width="1496" height="503" alt="LOGO" /></td>
+  </tr>
+  <tr>
+    <td height="57" align="center"><p><a href="Perros mas grandes.asp">PERROS MAS GRANDES</a> // <a href="perros mas veloces.asp">PERROS MAS VELOCES</a> //<a href="perros mas caros.asp"> PERROS MAS CAROS</a> // <a href="PERROS MAS PUPULARES.html">PERROS MAS POPULARES</a></p></td>
+  </tr>
+  <tr>
+    <td height="62"><div align="center">
+      <p>Todos los derechos reservados 2020&copy;    </p>
+    </div>
+    <!-- TemplateBeginEditable name="Plantilla Menus" -->
+    <h1>CURIOSIDADES</h1>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv7"><strong><em>Tu perro es tan inteligente como un niño de dos años.</em></strong></div>
+    <div id="apDiv8"><img src="../Imagenes/77777.jpg" width="620" height="222" alt="77" /></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv1"><img src="../Imagenes/111111111111111111.jpg" width="739" height="267" alt="perroniño" /></div>
+    <div id="apDiv2">¿Sabías que los perros comprenden aproximadamente 250 palabras o gestos? Muy similar a lo que le ocurre a un niño de 2 años. Por eso, es tan común que perros y niños pequeños se suelan llevar tan bien…</div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv3"><img src="../Imagenes/inquisitive-chihuahua-royalty-free-image-120927079-1542376611.jpg" width="613" height="328" alt="ñ" /></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv5"><strong><em>Físicamente, un perro de un año equivale a un humano de 15</em> </strong>
+      <div id="apDiv6"><strong><em>Pueden oír 4 veces más que los humanos</em></strong></div>
+    </div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv4">Los perros tienen bastante desarrollado el sentido del oído, y esto tiene que ver con las frecuencias de los sonidos y de cómo el cerebro de ellos responde. Son capaces de escuchar sonidos tan &lsquo;bajos&rsquo; que nosotros somos incapaces de detectar.</div>
+    <p>&nbsp;</p>
+    <div id="apDiv9"><strong><em>Perros y gatos utilizan la misma técnica para beber agua</em></strong></div>
+    <div id="apDiv10"><img src="../Imagenes/1111111111111111.jpg" width="626" height="284" alt="ddd" /></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv11">¿Cuál es esta técnica? Seguro que es algo que nunca te habías cuestionado. Ambos doblan la punta de la lengua y elevan el agua en vertical hasta la boca.</div>
+    <p>&nbsp;</p>
+    <div id="apDiv12"><strong><em>Tienen las glándulas sudoríparas en las patas</em></strong></div>
+    <p>&nbsp;</p>
+    <div id="apDiv13"><img src="../Imagenes/cccc.jpg" width="645" height="333" alt="ff" /></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv14">Exactamente, entre las almohadillas de las patas. Es por eso, no es extraño que vayan dejando un rastro húmedo con sus patas los días más calurosos…</div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv16"><img src="../Imagenes/portrait-of-puppy-with-white-background-royalty-free-image-943038680-1542376788.jpg" width="654" height="411" alt="ddd" /></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv15"><strong><em>Es capaz de echarte de menos</em></strong></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv18"><img src="../Imagenes/zzzzzz.jpg" width="653" height="389" alt="zzz" /></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv17"><strong><em>Detecta tus sentimientos…</em><em></em></strong></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv21"><img src="../Imagenes/vvvvv.jpg" width="672" height="415" alt="vvvv" /></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv22">No se trata de visión nocturna, claro está. Pero es cierto que gracias a sus bigotes pueden detectar cambios sutiles en las corrientes de aire, lo que les da información sobre el tamaño, la forma y la velocidad de las cosas cercanas. Así, pueden percibir mejor la proximidad de algún peligro, aunque sea de noche</div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv24"><img src="../Imagenes/bbb.jpg" width="676" height="344" alt="bbb" /></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv23"><strong><em>Su sentido del olfato es de 1.000 a 10 millones de veces mejor que el nuestro</em></strong></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv26"><img src="../Imagenes/portrait-of-basenji-dog-sitting-against-fence-in-royalty-free-image-742253787-1542377402.jpg" width="688" height="409" alt="nnn" /></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv25"><strong><em>Algunos no ladran</em></strong></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv20"><strong><em>Sus bigotes le ayudan a ver en la oscuridad</em></strong></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="apDiv19">Según diversos estudios, los perros pueden detectar cambios sutiles en nuestro olor, lo que les ayuda a comprender cómo nos sentimos (por ejemplo, si sudas, puede interpretar que estás nervioso o inquieto). También aseguran que las perras son capaces de detectar si un miembro de la familia está embarazada.</div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <!-- TemplateEndEditable --></td>
+  </tr>
+</table>
+</body>
+</html>
